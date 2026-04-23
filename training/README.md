@@ -46,6 +46,15 @@ The lessons can be applied independently, but the recommended approach is sequen
 
 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08
 
+## Extra Lessons
+
+Lessons from `09+` are treated as extra material outside the current 2025 course edition.
+They are intended as optional extensions and may become part of a future 2026+ edition if that course version is published.
+
+| Extra | Title | Key Topics |
+|---:|---|---|
+| 09 | [**Private ACR with Private Endpoint**](09-private-acr-with-private-endpoint/) | Private Endpoint, Private DNS, private image-pull path |
+
 ---
 
 ## Design Principles

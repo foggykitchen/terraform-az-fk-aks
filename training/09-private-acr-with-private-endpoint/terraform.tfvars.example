@@ -1,0 +1,2 @@
+resource_group_name = "fk-aks-private-acr-rg"
+location            = "westeurope"

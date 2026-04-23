@@ -61,6 +61,7 @@ terraform-az-fk-aks/
 │   ├── 06-additional-pools/
 │   ├── 07-autoscaling/
 │   ├── 08-persistent-storage/
+│   ├── 09-private-acr-with-private-endpoint/  # extra lesson
 │   └── README.md
 ├── main.tf
 ├── network.tf
@@ -73,7 +74,8 @@ terraform-az-fk-aks/
 └── README.md
 ```
 
-All examples from the FoggyKitchen AKS course are located under [`training/`](training).
+All examples from the FoggyKitchen AKS course are located under [`training/`](training).  
+Lessons `01-08` make up the current course core. Lessons `09+` are treated as extra material outside the current 2025 edition and may become part of a future 2026+ edition.
 
 ---
 
