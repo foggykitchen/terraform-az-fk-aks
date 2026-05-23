@@ -76,11 +76,11 @@ The training examples intentionally avoid:
 ## Related Resources
 
 - [FoggyKitchen AKS Module](../)
-- [FoggyKitchen Azure Compute Module](https://github.com/mlinxfeld/terraform-az-fk-compute)
+- [FoggyKitchen Azure Compute Module](https://github.com/foggykitchen/terraform-az-fk-compute)
 - [FoggyKitchen Azure VNet Module](https://github.com/foggykitchen/terraform-az-fk-vnet)
 - [FoggyKitchen Azure ACR Module](https://github.com/foggykitchen/terraform-az-fk-acr)
 - [FoggyKitchen Azure RBAC Module](https://github.com/foggykitchen/terraform-az-fk-rbac)
-- [FoggyKitchen Azure Bastion Module](https://github.com/mlinxfeld/terraform-az-fk-bastion)
+- [FoggyKitchen Azure Bastion Module](https://github.com/foggykitchen/terraform-az-fk-bastion)
 - [FoggyKitchen Azure NAT Gateway Module](https://github.com/foggykitchen/terraform-az-fk-natgw)
 - [FoggyKitchen Azure Routing Module](https://github.com/foggykitchen/terraform-az-fk-routing)
 - [FoggyKitchen Azure Public IP Module](https://github.com/foggykitchen/terraform-az-fk-public-ip)
@@ -92,3 +92,7 @@ The training examples intentionally avoid:
 
 Licensed under the **Universal Permissive License (UPL), Version 1.0**.  
 See [LICENSE](../LICENSE) for details.
+
+---
+
+© 2026 [FoggyKitchen.com](https://foggykitchen.com) - Cloud. Code. Clarity.

@@ -129,7 +129,7 @@ The jump VM is private and has an NSG attached at NIC level:
 
 ```hcl
 module "jump_vm" {
-  source = "github.com/mlinxfeld/terraform-az-fk-compute"
+  source = "github.com/foggykitchen/terraform-az-fk-compute"
 
   name                = "foggykitchen-jump-vm"
   location            = azurerm_resource_group.foggykitchen_rg.location
@@ -307,3 +307,7 @@ Visit [FoggyKitchen.com](https://foggykitchen.com/) for Azure, multicloud, and T
 
 Licensed under the **Universal Permissive License (UPL), Version 1.0**.  
 See [LICENSE](../../LICENSE) for more details.
+
+---
+
+© 2026 [FoggyKitchen.com](https://foggykitchen.com) - Cloud. Code. Clarity.
