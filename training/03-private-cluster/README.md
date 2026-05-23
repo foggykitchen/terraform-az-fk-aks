@@ -65,7 +65,7 @@ The AKS module consumes the existing VNet and subnet outputs:
 
 ```hcl
 module "aks" {
-  source              = "../.."
+  source              = "github.com/foggykitchen/terraform-az-fk-aks"
   name                = "fk-aks-private"
   location            = azurerm_resource_group.foggykitchen_rg.location
   resource_group_name = azurerm_resource_group.foggykitchen_rg.name

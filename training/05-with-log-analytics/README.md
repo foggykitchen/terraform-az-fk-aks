@@ -52,7 +52,7 @@ The AKS module creates the cluster, its default Kubenet network, and the Log Ana
 
 ```hcl
 module "aks" {
-  source              = "../.."
+  source              = "github.com/foggykitchen/terraform-az-fk-aks"
   name                = "fk-aks-law"
   location            = azurerm_resource_group.foggykitchen_rg.location
   resource_group_name = azurerm_resource_group.foggykitchen_rg.name

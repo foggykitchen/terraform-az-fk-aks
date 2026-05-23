@@ -1,5 +1,5 @@
 module "aks" {
-  source              = "../.."
+  source              = "github.com/foggykitchen/terraform-az-fk-aks"
   name                = "fk-aks-demo"
   create_rg           = true
   location            = var.location
