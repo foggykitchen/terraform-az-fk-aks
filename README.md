@@ -4,6 +4,8 @@ This repository contains a reusable **OpenTofu module** and progressive training
 
 It is part of the [FoggyKitchen.com](https://foggykitchen.com) training ecosystem and is designed as a composable AKS layer that can be combined with networking, registry, observability, and workload modules.
 
+Support expectations are documented in [SUPPORT.md](SUPPORT.md).
+
 ---
 
 ## Purpose
