@@ -179,6 +179,23 @@ variable "assign_contributor_on_cluster" {
 }
 
 # Security / Auth
+variable "identity_type" {
+  description = "Managed identity type used by the AKS control plane."
+  type        = string
+  default     = "SystemAssigned"
+
+  validation {
+    condition     = contains(["SystemAssigned", "UserAssigned"], var.identity_type)
+    error_message = "identity_type must be SystemAssigned or UserAssigned."
+  }
+}
+
+variable "identity_ids" {
+  description = "User-assigned managed identity IDs used when identity_type is UserAssigned."
+  type        = list(string)
+  default     = []
+}
+
 variable "rbac_enabled" {
   type    = bool
   default = true

@@ -33,7 +33,8 @@ resource "azurerm_kubernetes_cluster" "this" {
   }
 
   identity {
-    type = "SystemAssigned"
+    type         = var.identity_type
+    identity_ids = var.identity_type == "UserAssigned" ? var.identity_ids : null
   }
 
   # Calico disabled – network_policy will not be set.

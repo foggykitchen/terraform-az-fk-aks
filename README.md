@@ -164,6 +164,8 @@ module "aks" {
 | `law_sku` | string | `PerGB2018` | Log Analytics SKU |
 | `law_retention_days` | number | `30` | Log retention days |
 | `monitoring_mode` | string | `oms` | Monitoring mode |
+| `identity_type` | string | `SystemAssigned` | AKS control-plane managed identity type |
+| `identity_ids` | list(string) | `[]` | User-assigned identity IDs when `identity_type = "UserAssigned"` |
 | `rbac_enabled` | bool | `true` | Enable AKS RBAC |
 | `oidc_issuer_enabled` | bool | `true` | Enable OIDC issuer |
 | `assign_contributor_on_cluster` | bool | `false` | Optional contributor fallback |
