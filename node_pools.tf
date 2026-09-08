@@ -7,7 +7,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "extra" {
   mode                  = each.value.mode
   vnet_subnet_id        = try(each.value.subnet_id, null)
   orchestrator_version  = try(each.value.orchestrator_version, null)
-  enable_auto_scaling   = each.value.enable_auto_scaling
+  auto_scaling_enabled  = each.value.enable_auto_scaling
   min_count             = each.value.min_count
   max_count             = each.value.max_count
   node_labels           = try(each.value.labels, null)
